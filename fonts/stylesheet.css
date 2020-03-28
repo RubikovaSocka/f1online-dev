@@ -11,8 +11,8 @@
 */
 	@font-face {
 	font-family: "CustomFont";
-	src: url("https://rubikovasocka.github.io/f1online-dev/sourcesanspro-bold-webfont.woff") format("woff"),
-		 url("https://rubikovasocka.github.io/f1online-dev/sourcesanspro-bold-webfont.svg") format("svg");
+	src: url("https://rubikovasocka.github.io/f1online-dev/fonts/sourcesanspro-bold-webfont.woff") format("woff"),
+		 url("https://rubikovasocka.github.io/f1online-dev/fonts/sourcesanspro-bold-webfont.svg") format("svg");
 	}
 /*
 }*/
