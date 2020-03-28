@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/f1online-dev/static/css/main.8f591f2d.chunk.css",
+    "main.css": "/f1online-dev/static/css/main.498171db.chunk.css",
     "main.js": "/f1online-dev/static/js/main.b882c7b8.chunk.js",
     "main.js.map": "/f1online-dev/static/js/main.b882c7b8.chunk.js.map",
     "runtime-main.js": "/f1online-dev/static/js/runtime-main.857708bd.js",
@@ -8,15 +8,15 @@
     "static/js/2.d54eac95.chunk.js": "/f1online-dev/static/js/2.d54eac95.chunk.js",
     "static/js/2.d54eac95.chunk.js.map": "/f1online-dev/static/js/2.d54eac95.chunk.js.map",
     "index.html": "/f1online-dev/index.html",
-    "precache-manifest.118772d54f6b73eccef7ffc5f020d0ef.js": "/f1online-dev/precache-manifest.118772d54f6b73eccef7ffc5f020d0ef.js",
+    "precache-manifest.fe1e54a4d7204602240ff8cc4a25a4f7.js": "/f1online-dev/precache-manifest.fe1e54a4d7204602240ff8cc4a25a4f7.js",
     "service-worker.js": "/f1online-dev/service-worker.js",
-    "static/css/main.8f591f2d.chunk.css.map": "/f1online-dev/static/css/main.8f591f2d.chunk.css.map",
+    "static/css/main.498171db.chunk.css.map": "/f1online-dev/static/css/main.498171db.chunk.css.map",
     "static/js/2.d54eac95.chunk.js.LICENSE.txt": "/f1online-dev/static/js/2.d54eac95.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.857708bd.js",
     "static/js/2.d54eac95.chunk.js",
-    "static/css/main.8f591f2d.chunk.css",
+    "static/css/main.498171db.chunk.css",
     "static/js/main.b882c7b8.chunk.js"
   ]
 }
