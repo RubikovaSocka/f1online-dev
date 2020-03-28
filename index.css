@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'CustomFont';
-    src: /*local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),*/
+    src: local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
+        local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
         local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
 }
 body{
