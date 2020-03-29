@@ -3,11 +3,11 @@
     src: local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
-}*/
+}
 /*@font-face {
     font-family: 'Lato';
     src: local('Lato'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
-}*/
+}/*
 @font-face {
     font-family: 'TahomaReg';
     src: local('TahomaReg'), url("fonts/Tahoma/Tahoma-regular.ttf") format('truetype');
@@ -17,7 +17,7 @@
     font-family: 'TahomaBold';
     src: local('TahomaBold'), url("fonts/Tahoma/Tahoma-bold.ttf") format('truetype');
     font-weight: bold;
-}
+}*/
 body{
     margin: 0;
 }
@@ -176,7 +176,7 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'TahomaBold';
+        font-family: 'Lato';
         font-weight: bold;
     }
     .contentFont {
