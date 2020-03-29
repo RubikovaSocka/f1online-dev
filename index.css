@@ -4,6 +4,10 @@
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
 }*/
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato'), url("fonts/Lato/.ttf") format('truetype');
+}
 body{
     margin: 0;
 }
