@@ -1,8 +1,8 @@
 /*@font-face {
-    font-family: 'Source Sans Pro';
-    src: local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
-        local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
-        local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
+    font-family: 'Sarabun';
+    src: local('Sarabun'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
+        local('Sarabun'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
+        local('Sarabun'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
 }*/
 @font-face {
     font-family: 'LatoReg';
@@ -131,7 +131,7 @@ body{
 
         text-decoration: none;
         text-transform: uppercase;
-        font-family: Source Sans Pro;
+        font-family: Sarabun;
         font-family: 'Lato';
         font-weight: 700;
         font-size: 14px;
@@ -161,7 +161,7 @@ body{
         
         font-weight: 600;
         font-size: 16px;
-        font-family: Source sans pro;
+        font-family: Sarabun;
         text-transform: uppercase;
         
         background-color: #eceff2;
@@ -227,7 +227,7 @@ body{
         width: 130px;
         border: 1px solid black;
         border-radius: 0px;
-        font-family: 'Source Sans Pro';
+        font-family: 'Sarabun';
         text-transform: uppercase;
         font-weight: 600;
         font-size: 14px;
@@ -247,7 +247,7 @@ body{
         font-size: 14px;
         text-decoration: none;
         color: black;
-        font-family: Source sans pro;
+        font-family: Sarabun;
         font-weight: 600;
     }
     .linkAsButton img {
