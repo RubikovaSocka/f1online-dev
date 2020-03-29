@@ -1,26 +1,10 @@
 /*@font-face {
-    font-family: 'Sarabun';
-    src: local('Sarabun'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
-        local('Sarabun'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
-        local('Sarabun'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
-}*/
-@font-face {
     font-family: 'LatoReg';
     src: local('LatoReg'), url("fonts/Lato/Lato-Regular.ttf") format('truetype');
 }
 @font-face {
     font-family: 'LatoBold';
     src: local('LatoBold'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
-}/*
-@font-face {
-    font-family: 'TahomaReg';
-    src: local('TahomaReg'), url("fonts/Tahoma/Tahoma-regular.ttf") format('truetype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'TahomaBold';
-    src: local('TahomaBold'), url("fonts/Tahoma/Tahoma-bold.ttf") format('truetype');
-    font-weight: bold;
 }*/
 body{
     margin: 0;
@@ -131,8 +115,7 @@ body{
 
         text-decoration: none;
         text-transform: uppercase;
-        font-family: Sarabun;
-        font-family: 'Lato';
+        font-family: 'Seguo UI','Source Sans Pro';
         font-weight: 700;
         font-size: 14px;
         color: white;
@@ -161,7 +144,7 @@ body{
         
         font-weight: 600;
         font-size: 16px;
-        font-family: Sarabun;
+        font-family: 'Seguo UI','Source Sans Pro';
         text-transform: uppercase;
         
         background-color: #eceff2;
@@ -180,7 +163,7 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: Sarabun;
+        font-family: 'Seguo UI','Source Sans Pro';
         font-weight: 700;
     }
     .contentFont {
@@ -227,7 +210,7 @@ body{
         width: 130px;
         border: 1px solid black;
         border-radius: 0px;
-        font-family: 'Sarabun';
+        font-family: 'Seguo UI','Source Sans Pro';
         text-transform: uppercase;
         font-weight: 600;
         font-size: 14px;
@@ -247,7 +230,7 @@ body{
         font-size: 14px;
         text-decoration: none;
         color: black;
-        font-family: Sarabun;
+        font-family: 'Seguo UI','Source Sans Pro';
         font-weight: 600;
     }
     .linkAsButton img {
@@ -447,7 +430,7 @@ body{
         margin-left: 15px;
 
         z-index: 3;
-        font-family: Open sans;
+        font-family: 'Open sans';
         font-size: 11px;
         background-color: white;
     }
