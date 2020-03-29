@@ -114,6 +114,7 @@ body{
         text-decoration: none;
         text-transform: uppercase;
         font-family: Source Sans Pro;
+        font-family: 'Lato';
         font-weight: 700;
         font-size: 14px;
         color: white;
@@ -161,7 +162,7 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'Roboto';
+        font-family: 'Lato';
         /*font-weight: bold;*/
     }
     .contentFont {
