@@ -180,8 +180,8 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'LatoBold';
-        /*font-weight: bold;*/
+        font-family: 'Sarabun';
+        font-weight: 700;
     }
     .contentFont {
         font-family: 'Open Sans';
