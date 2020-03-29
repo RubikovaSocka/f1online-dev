@@ -1,9 +1,9 @@
-@font-face {
+/*@font-face {
     font-family: 'Source Sans Pro';
-    src: /*local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
-        local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),*/
+    src: local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
+        local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
-}
+}*/
 body{
     margin: 0;
 }
