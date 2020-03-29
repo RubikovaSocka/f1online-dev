@@ -5,8 +5,12 @@
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
 }*/
 @font-face {
-    font-family: 'Lato';
-    src: local('Lato'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
+    font-family: 'LatoReg';
+    src: local('LatoReg'), url("fonts/Lato/Lato-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'LatoBold';
+    src: local('LatoBold'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
 }/*
 @font-face {
     font-family: 'TahomaReg';
@@ -176,8 +180,8 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'Lato';
-        font-weight: bold;
+        font-family: 'LatoBold';
+        /*font-weight: bold;*/
     }
     .contentFont {
         font-family: 'Open Sans';
