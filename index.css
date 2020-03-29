@@ -10,12 +10,12 @@
 }*/
 @font-face {
     font-family: 'Tahoma';
-    src: local('Tahoma'), url("fonts/Lato/Tahoma-regular.ttf") format('truetype');
+    src: local('Tahoma'), url("fonts/Tahoma/Tahoma-regular.ttf") format('truetype');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Tahoma';
-    src: local('Tahoma'), url("fonts/Lato/Tahoma-bold.ttf") format('truetype');
+    src: local('Tahoma'), url("fonts/Tahoma/Tahoma-bold.ttf") format('truetype');
     font-weight: bold;
 }
 body{
