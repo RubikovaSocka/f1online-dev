@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/f1online-dev/static/js/main.0f95f3be.chunk.js",
-    "main.js.map": "/f1online-dev/static/js/main.0f95f3be.chunk.js.map",
+    "main.js": "/f1online-dev/static/js/main.a7349a1a.chunk.js",
+    "main.js.map": "/f1online-dev/static/js/main.a7349a1a.chunk.js.map",
     "runtime-main.js": "/f1online-dev/static/js/runtime-main.857708bd.js",
     "runtime-main.js.map": "/f1online-dev/static/js/runtime-main.857708bd.js.map",
     "static/js/2.1d364dd5.chunk.js": "/f1online-dev/static/js/2.1d364dd5.chunk.js",
     "static/js/2.1d364dd5.chunk.js.map": "/f1online-dev/static/js/2.1d364dd5.chunk.js.map",
     "index.html": "/f1online-dev/index.html",
-    "precache-manifest.cef9a7683138a9a8ce10ea2519ac21b6.js": "/f1online-dev/precache-manifest.cef9a7683138a9a8ce10ea2519ac21b6.js",
+    "precache-manifest.46be3a6f8d118057858a89c7c056ec19.js": "/f1online-dev/precache-manifest.46be3a6f8d118057858a89c7c056ec19.js",
     "service-worker.js": "/f1online-dev/service-worker.js",
     "static/js/2.1d364dd5.chunk.js.LICENSE.txt": "/f1online-dev/static/js/2.1d364dd5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.857708bd.js",
     "static/js/2.1d364dd5.chunk.js",
-    "static/js/main.0f95f3be.chunk.js"
+    "static/js/main.a7349a1a.chunk.js"
   ]
 }
