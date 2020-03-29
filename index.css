@@ -8,6 +8,16 @@
     font-family: 'Lato';
     src: local('Lato'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
 }*/
+@font-face {
+    font-family: 'Tahoma';
+    src: local('Tahoma'), url("fonts/Lato/Tahoma-regular.ttf") format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tahoma';
+    src: local('Tahoma'), url("fonts/Lato/Tahoma-bold.ttf") format('truetype');
+    font-weight: bold;
+}
 body{
     margin: 0;
 }
@@ -167,7 +177,7 @@ body{
     }
     .titleFont {
         font-family: 'Tahoma';
-        /*font-weight: bold;*/
+        font-weight: bold;
     }
     .contentFont {
         font-family: 'Open Sans';
