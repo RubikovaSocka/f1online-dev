@@ -1,9 +1,9 @@
-/*@font-face {
+@font-face {
     font-family: 'CustomFont';
-    src: local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
-        local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
+    src: /*local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.woff") format('woff'),
+        local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),*/
         local('CustomFont'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
-}*/
+}
 body{
     margin: 0;
 }
