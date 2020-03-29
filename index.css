@@ -4,10 +4,10 @@
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.ttf") format('truetype'),
         local('Source Sans Pro'), url("fonts/sourcesanspro-bold-webfont.svg") format("svg");
 }*/
-@font-face {
+/*@font-face {
     font-family: 'Lato';
     src: local('Lato'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
-}
+}*/
 body{
     margin: 0;
 }
@@ -166,11 +166,11 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'Lato';
+        font-family: 'Open Sans';
         /*font-weight: bold;*/
     }
     .contentFont {
-        font-family: Open sans;
+        font-family: 'Open Sans';
         font-weight: 400;
     }
     .subTitleFontColor {
