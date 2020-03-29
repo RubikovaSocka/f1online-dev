@@ -422,12 +422,15 @@ body{
         z-index: 5;
     }
     .oneLineNews .date {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
         width: fit-content;
         padding: 0 6px;
 
         position: relative;
         margin-bottom: -20px;
         margin-left: 15px;
+        margin-right: auto;
 
         z-index: 3;
         font-family: 'Open sans';
