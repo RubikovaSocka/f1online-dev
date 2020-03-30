@@ -6,6 +6,12 @@
     font-family: 'LatoBold';
     src: local('LatoBold'), url("fonts/Lato/Lato-Bold.ttf") format('truetype');
 }*/
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: bold;
+    font-weight: 600;
+    src: local("Segoe UI Bold");
+}
 body{
     margin: 0;
 }
@@ -608,6 +614,7 @@ body{
     }
     .resultsInfobox .name {
         width: 190px;
+        font-family: 'Segoe UI Bold', 'Source Sans Pro';
         font-weight: 600;
     }
     .resultsInfobox .time {
@@ -615,6 +622,7 @@ body{
     }
     .resultsInfobox .position {
         width: 12px;
+        font-family: 'Segoe UI Bold', 'Source Sans Pro';
         font-weight: 600;
         flex-shrink: 0;
     }
