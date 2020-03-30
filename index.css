@@ -26,7 +26,8 @@ body{
 .toppanel{
     height: 90px;
     background-color: white;
-    padding: 18px 0;
+    padding: 5px 0;
+    padding-bottom: 0px;
 }
 .toppanelContent {
     margin: auto;
