@@ -296,9 +296,9 @@ body{
         width: -moz-fit-content;
         width: fit-content;
     }
-    .linkAsButton:hover a{
+    /*.linkAsButton:hover a{
         text-decoration: underline;
-    }
+    }*/
     .linkAsButton a {
         font-size: 14px;
         text-decoration: none;
@@ -540,7 +540,7 @@ body{
     .calendarPreview {
         display: grid;
         grid-template-columns: auto 307px 14px 307px 38px 365px auto;
-        grid-template-rows: 10px 55px 10px 35px 10px 192px 0px 30px 10px 35px 250px 10px;
+        grid-template-rows: 10px 55px 10px 35px 10px 192px 30px 0px 10px 35px 270px 30px;
     }
     .calendarPreview .calendarTitle{
         grid-column: 2 / span 1;
@@ -571,10 +571,12 @@ body{
     }
     .calendarPreview .linkAsButton {
         grid-column: 4 / span 1;
-        grid-row: 8 / span 1;
-        
+        grid-row: 7 / span 1;
+
+        margin-top: -10px;
+        /*
         margin-right: 5px;
-        margin-left: auto;
+        margin-left: auto;*/
     }
     
     /* PROGRAM -- */
@@ -696,6 +698,12 @@ body{
         font-weight: 600;
         flex-shrink: 0;
     }
+    .resultsInfobox .linkAsButton {
+        margin-top: 7px;
+        /*
+        margin-right: 5px;
+        margin-left: auto;*/
+    }
 
     .champResultsInfoboxTitle {
         grid-column: 4 / span 1;
@@ -704,6 +712,13 @@ body{
     .champResultsInfobox {
         grid-column: 4 / span 1;
         grid-row: 11 / span 1;
+        margin-right: 0;
+    }
+    .champResultsInfobox .linkAsButton {
+        margin-top: 7px;
+        
+        margin-right: 0px;/*
+        margin-left: auto;*/
     }
     
     .driverData {
