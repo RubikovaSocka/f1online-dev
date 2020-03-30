@@ -24,8 +24,15 @@ body{
     height: 500px;
 }
 .toppanel{
-    height: 126px;
-    background-color: orangered;
+    height: 90px;
+    background-color: white;
+    padding: 18px 0;
+}
+.toppanelContent {
+    margin: auto;
+    height: 90px;
+    width: 970px;
+    background-color: green;
 }
 
 /*@media only screen and (min-width: 1366px) {
