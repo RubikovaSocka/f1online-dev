@@ -118,7 +118,8 @@ body{
     }
     .navbar a{
         /*padding: 7px 19px;*/
-        height: 32px;
+        height: 30px;
+        margin: 0 4px;
 
         display: flex;
         align-items: center;
@@ -131,11 +132,11 @@ body{
         font-size: 14px;
         color: white;
 
-        border-bottom: 3px solid transparent;
-        border-top: 3px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-top: 4px solid transparent;
     }
     .navbar a span {
-        padding: 0 19px;
+        padding: 0 15px;
     }
     .navbar a:hover{
         border-bottom-color: white;
