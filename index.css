@@ -115,7 +115,7 @@ body{
 
         text-decoration: none;
         text-transform: uppercase;
-        font-family: 'Seguo UI','Source Sans Pro';
+        font-family: 'Segoe UI','Source Sans Pro';
         font-weight: 700;
         font-size: 14px;
         color: white;
@@ -144,7 +144,7 @@ body{
         
         font-weight: 600;
         font-size: 16px;
-        font-family: 'Seguo UI','Source Sans Pro';
+        font-family: 'Segoe UI','Source Sans Pro';
         text-transform: uppercase;
         
         background-color: #eceff2;
@@ -163,7 +163,7 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'Seguo UI','Source Sans Pro';
+        font-family: 'Segoe UI','Source Sans Pro';
         font-weight: 700;
     }
     .contentFont {
@@ -210,7 +210,7 @@ body{
         width: 130px;
         border: 1px solid black;
         border-radius: 0px;
-        font-family: 'Seguo UI','Source Sans Pro';
+        font-family: 'Segoe UI','Source Sans Pro';
         text-transform: uppercase;
         font-weight: 600;
         font-size: 14px;
@@ -230,7 +230,7 @@ body{
         font-size: 14px;
         text-decoration: none;
         color: black;
-        font-family: 'Seguo UI','Source Sans Pro';
+        font-family: 'Segoe UI','Source Sans Pro';
         font-weight: 600;
     }
     .linkAsButton img {
