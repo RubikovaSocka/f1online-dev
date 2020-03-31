@@ -730,11 +730,13 @@ body{
     .champResultsInfoboxTitle {
         grid-column: 4 / span 1;
         grid-row: 10 / span 1;
+
+        margin-left: 10px;
     }
     .champResultsInfobox {
         grid-column: 4 / span 1;
         grid-row: 11 / span 1;
-        margin-right: 0;
+        margin-left: 20px;
     }
     .champResultsInfobox .linkAsButton {
         margin-top: 10px;
