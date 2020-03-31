@@ -428,12 +428,10 @@ body{
         color: white;
         text-shadow: black 1px 1px 2px;
     }
-    
-    
 
     .articlesBlock {
         display: grid;
-        grid-template-columns: auto 196px 20px 196px 20px 196px 38px 365px auto;
+        grid-template-columns: auto 211px 20px 211px 20px 211px 38px 320px auto;
         grid-template-rows: 30px 50px 15px 220px 20px 220px 20px 40px;
     }
     #art-05 {
@@ -533,6 +531,8 @@ body{
         padding: 8px;
         padding-top: 12px;
 
+        font-size: 13px;
+
         z-index: 0;
         border: 1px solid rgba(0, 0, 0, 0.3);
     }
@@ -558,8 +558,8 @@ body{
     /* -- CALENDAR basics -- */
     .calendarPreview {
         display: grid;
-        grid-template-columns: auto 307px 14px 307px 38px 365px auto;
-        grid-template-rows: 10px 55px 10px 35px 10px 192px 30px 16px 10px 35px 270px 30px;
+        grid-template-columns: auto 328px 17px 328px 38px 320px auto;
+        grid-template-rows: 10px 55px 10px 35px 10px 205px 30px 16px 10px 35px 270px 30px;
     }
     .calendarPreview .calendarTitle{
         grid-column: 2 / span 1;
@@ -600,9 +600,10 @@ body{
     /* PROGRAM -- */
     .timesDataItem {
         margin: 0px;
-        margin-top: 13px;
+        margin-top: 14px;
         margin-right: 10px;
-        width: 143px;
+        padding-bottom: 2px;
+        width: 152px;
 
         display: flex;
         flex-direction: column;
@@ -623,6 +624,7 @@ body{
     }
     .timesDataItem .tvStations {
         padding-left: 5px;
+        padding-right: 4px;
         position: absolute;
         z-index: 2;
 
@@ -633,7 +635,7 @@ body{
     .timesDataItem:hover .tvStations {
         opacity: 1;
         color: black;
-        background-color: #eceff2;
+        background-color: #d8dcde;
     }
 
     .timesDataItem .time {
@@ -680,13 +682,15 @@ body{
     .resultsInfoboxTitle {
         grid-column: 2 / span 1;
         grid-row: 10 / span 1;
+
+        margin-right: 8px;
     }
     .resultsInfobox {
         grid-column: 2 / span 1;
         grid-row: 11 / span 1;
 
         margin-left: 5px;
-        margin-right: 8px;
+        margin-right: 15px;
     }
     .resultsDataItem {
         margin: 0;
@@ -742,9 +746,15 @@ body{
     .driverData {
         margin: 0px;
         margin-right: 10px;
-        width: 160px;
+        width: 200px;
         height: 35px;
         border-left: 3px solid #d8dcde;
+    }
+    .resultsDataItem .driverData {
+        width: 170px;
+    }
+    .champResultsInfobox .resultsDataItem .driverData {
+        width: 220px;
     }
     .driverData .team {
         color: rgba(0, 0, 0, 0.65);
