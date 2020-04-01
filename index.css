@@ -422,6 +422,10 @@ body{
         margin: 0;
         width: 100%;
         position: absolute;
+
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
     }
     .sideArticleTitle h3{
         padding: 10px 10px;
