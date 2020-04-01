@@ -13,7 +13,7 @@
     src: local("Segoe UI");
 }*/
 @font-face {
-    font-family: 'HK Grotesk';
+    font-family: 'Cabin';
     font-style: bold;
     font-weight: 700; 
     src: url("fonts/HKGrotesk/hkgrotesk-bold-webfont.ttf") format('truetype'),
@@ -21,7 +21,7 @@
     url("fonts/HKGrotesk/hkgrotesk-bold-webfont.woff2") format("woff2");
 }
 @font-face {
-    font-family: 'HK Grotesk';
+    font-family: 'Cabin';
     font-style: normal;
     font-weight: 400;  
     src: url("fonts/HKGrotesk/hkgrotesk-regular-webfont.ttf") format('truetype'),
@@ -29,7 +29,7 @@
     url("fonts/HKGrotesk/hkgrotesk-regular-webfont.woff2") format("woff2");
 }
 @font-face {
-    font-family: 'HK Grotesk';
+    font-family: 'Cabin';
     font-weight: 600;  
     src: url("fonts/HKGrotesk/hkgrotesk-semibold-webfont.ttf") format('truetype'),
     url("fonts/HKGrotesk/hkgrotesk-semibold-webfont.woff") format("woff"),
@@ -171,7 +171,7 @@ body{
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: 'HK Grotesk','Source Sans Pro';
+        font-family: 'Cabin','Source Sans Pro';
         font-weight: 700;
         font-size: 14px;
         color: white;
@@ -215,7 +215,7 @@ body{
         
         font-weight: 600;
         font-size: 16px;
-        font-family: 'HK Grotesk','Source Sans Pro';
+        font-family: 'Cabin','Source Sans Pro';
         text-transform: uppercase;
         
         background-color: #eceff2;
@@ -234,9 +234,10 @@ body{
         align-items: center;
     }
     .titleFont {
-        font-family: 'HK Grotesk','Source Sans Pro';
+        font-family: 'Cabin','Source Sans Pro';
         font-weight: 700;
         -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
     }
     .contentFont {
         font-family: 'Open Sans';
@@ -282,7 +283,7 @@ body{
         width: 140px;
         border: 1px solid black;
         border-radius: 0px;
-        font-family: 'HK Grotesk','Source Sans Pro';
+        font-family: 'Cabin','Source Sans Pro';
         text-transform: uppercase;
         text-decoration: none;
         font-weight: 600;
@@ -320,7 +321,7 @@ body{
         font-size: 14px;
         text-decoration: none;
         color: black;
-        font-family: 'HK Grotesk','Source Sans Pro';
+        font-family: 'Cabin','Source Sans Pro';
         font-weight: 600;
     }
     .linkAsButton img {
@@ -709,7 +710,7 @@ body{
     }
     .resultsInfobox .name {
         width: 190px;
-        font-family: 'HK Grotesk', 'Source Sans Pro';
+        font-family: 'Cabin', 'Source Sans Pro';
         -webkit-font-smoothing: antialiased;
         font-weight: 600;
     }
@@ -718,7 +719,7 @@ body{
     }
     .resultsInfobox .position {
         width: 12px;
-        font-family: 'HK Grotesk', 'Source Sans Pro';
+        font-family: 'Cabin', 'Source Sans Pro';
         -webkit-font-smoothing: antialiased;
         font-weight: 600;
         flex-shrink: 0;
