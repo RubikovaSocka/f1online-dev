@@ -282,7 +282,7 @@ body{
     }
     .basicButton {
         margin: auto;
-        height: 100%;
+        height: 40px;
         width: 140px;
         border: 1px solid black;
         border-radius: 0px;
@@ -337,18 +337,6 @@ body{
         text-decoration: underline;
     }
 
-
-
-
-
-
-
-    
-    
-    
-
-    
-
     /* -- MAINZONE AREA -- */
     .titleArea{
         display: grid;
@@ -374,6 +362,26 @@ body{
     #art-04 {
         grid-column: 8 / span 1;
         grid-row: 4 / span 1;
+    }
+
+    .contentsPage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto 673px 38px 320px auto; 
+    }
+    .page .mainContent {
+        grid-column: 2 / span 1;
+    }
+    .page .sideBar {
+        margin-top: 61px;
+        grid-column: 4 / span 1;
     }
 
     .articleLink {
@@ -439,33 +447,35 @@ body{
     }
 
     .articlesBlock {
+        width: 100%;
+        margin-top: 20px;
         display: grid;
         grid-template-columns: auto 211px 20px 211px 20px 211px 38px 320px auto;
-        grid-template-rows: 30px 50px 15px 220px 20px 220px 20px 40px;
+        grid-template-rows: 220px 20px 220px;
     }
     #art-05 {
         grid-column: 2 / span 1;
-        grid-row: 4 / span 1;
+        grid-row: 1 / span 1;
     }
     #art-06 {
         grid-column: 4 / span 1;
-        grid-row: 4 / span 1;
+        grid-row: 1 / span 1;
     }
     #art-07 {
         grid-column: 6 / span 1;
-        grid-row: 4 / span 1;
+        grid-row: 1 / span 1;
     }
     #art-08 {
         grid-column: 2 / span 1;
-        grid-row: 6 / span 1;
+        grid-row: 3 / span 1;
     }
     #art-09 {
         grid-column: 4 / span 1;
-        grid-row: 6 / span 1;
+        grid-row: 3 / span 1;
     }
     #art-10 {
         grid-column: 6 / span 1;
-        grid-row: 6 / span 1;
+        grid-row: 3 / span 1;
     }
 
     .articlesBlockTitle {
@@ -478,10 +488,6 @@ body{
         font-size: 26px;
     }
 
-    .side {
-        grid-column: 8 / span 1;
-        grid-row: 4 / span 4;
-    }
     #quickNewsTitle {
         display: block;
     }
@@ -555,8 +561,7 @@ body{
 
     /* -- all articles BUTTON -- */
     .allArticlesButton{
-        grid-column: 4 / span 1;
-        grid-row: 8 / span 1;
+        margin-top: 20px;
     }/*
     .allArticlesButton:hover {
         border: 1px solid #e10600;
@@ -568,7 +573,7 @@ body{
     .calendarPreview {
         display: grid;
         grid-template-columns: auto 328px 17px 328px 38px 320px auto;
-        grid-template-rows: 10px 55px 10px 35px 10px 205px 30px 16px 10px 35px 270px 30px;
+        grid-template-rows: 10px 55px 10px 35px 10px 205px 30px 26px;
     }
     .calendarPreview .calendarTitle{
         grid-column: 2 / span 1;
@@ -688,19 +693,22 @@ body{
     }
 
     /* RESULTS */
-    .resultsInfoboxTitle {
-        grid-column: 2 / span 1;
-        grid-row: 10 / span 1;
 
-        margin-right: 8px;
+    .resultsWidgetContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 673px;
+    }
+
+    .resultsInfoboxTitle {
+        width: 296px;
     }
     .resultsInfobox {
-        grid-column: 2 / span 1;
-        grid-row: 11 / span 1;
-
-        margin-left: 5px;
-        margin-right: 15px;
+        width: 320px;
     }
+
+
     .resultsDataItem {
         margin: 0;
         margin-top: 10px;
@@ -733,9 +741,8 @@ body{
     }
     .resultsInfobox .linkAsButton {
         margin-top: 10px;
-        /*
+        
         margin-right: 5px;
-        margin-left: auto;*/
     }
 
     .champResultsInfoboxTitle {
@@ -777,9 +784,57 @@ body{
     }/*
 }*/
 
-
+.rPanel {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
+    background-color: green;
+}
 .dummyContent {
     height: 600px;
     background: rgb(1,1,1);
     background: linear-gradient(0deg, rgba(1,1,1,0.8365546047520571) 0%, rgba(184,96,46,1) 28%, rgba(122,128,50,1) 67%, rgba(222,233,90,0.8505602069929534) 98%);
+}
+
+.pagePicker{
+    margin-top: 25px;
+    height: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.pagePickerItem {
+    margin: 2px 3px;
+    padding: 0 3px;
+    height: 30px;
+    width: 26px;
+
+    border: 1px solid black;
+    border-radius: 0px;
+    font-family: 'HK Grotesk','Source Sans Pro';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    transition: ease-in-out 0.2s;
+}
+
+.pagePickerItem:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.noOutline {
+    outline: none;
 }
