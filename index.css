@@ -236,6 +236,7 @@ body{
     .titleFont {
         font-family: 'HK Grotesk','Source Sans Pro';
         font-weight: 700;
+        -webkit-font-smoothing: antialiased;
     }
     .contentFont {
         font-family: 'Open Sans';
@@ -709,6 +710,7 @@ body{
     .resultsInfobox .name {
         width: 190px;
         font-family: 'HK Grotesk', 'Source Sans Pro';
+        -webkit-font-smoothing: antialiased;
         font-weight: 600;
     }
     .resultsInfobox .time {
@@ -717,6 +719,7 @@ body{
     .resultsInfobox .position {
         width: 12px;
         font-family: 'HK Grotesk', 'Source Sans Pro';
+        -webkit-font-smoothing: antialiased;
         font-weight: 600;
         flex-shrink: 0;
     }
