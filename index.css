@@ -13,7 +13,7 @@
     src: local("Segoe UI");
 }*/
 @font-face {
-    font-family: 'Cabin';
+    font-family: 'HK Grotesk';
     font-style: bold;
     font-weight: 700; 
     src: url("fonts/HKGrotesk/hkgrotesk-bold-webfont.ttf") format('truetype'),
@@ -21,7 +21,7 @@
     url("fonts/HKGrotesk/hkgrotesk-bold-webfont.woff2") format("woff2");
 }
 @font-face {
-    font-family: 'Cabin';
+    font-family: 'HK Grotesk';
     font-style: normal;
     font-weight: 400;  
     src: url("fonts/HKGrotesk/hkgrotesk-regular-webfont.ttf") format('truetype'),
@@ -29,7 +29,7 @@
     url("fonts/HKGrotesk/hkgrotesk-regular-webfont.woff2") format("woff2");
 }
 @font-face {
-    font-family: 'Cabin';
+    font-family: 'HK Grotesk';
     font-weight: 600;  
     src: url("fonts/HKGrotesk/hkgrotesk-semibold-webfont.ttf") format('truetype'),
     url("fonts/HKGrotesk/hkgrotesk-semibold-webfont.woff") format("woff"),
@@ -175,7 +175,7 @@ body{
         text-transform: uppercase;
         font-family: 'HK Grotesk','Source Sans Pro';
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14px;
         color: white;
 
         border-bottom: 4px solid transparent;
