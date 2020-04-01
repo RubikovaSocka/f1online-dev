@@ -44,8 +44,10 @@ body{
     top: 0;
 }
 .footer{
-    background-color: darkgrey;
-    height: 500px;
+    font-family: 'Cabin';
+    font-weight: 600;
+    background-color: #5e6b6e;
+    height: 100px;
 }
 .toppanel{
     height: 90px;
@@ -171,13 +173,14 @@ body{
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: 'Cabin','Source Sans Pro';
+        font-family: 'HK Grotesk','Source Sans Pro';
         font-weight: 700;
         font-size: 14px;
         color: white;
 
         border-bottom: 4px solid transparent;
         border-top: 4px solid transparent;
+        outline: none;
     }
     .navbar a span {
         padding: 0 9px;
@@ -202,20 +205,14 @@ body{
         /*transition: width .3s;*/
     }
 
-    
-    
-
-
-
     .reGrayTitle {
         margin: 0;
         padding: 7px;
         padding-left: 12px;
 
-        
         font-weight: 600;
         font-size: 16px;
-        font-family: 'Cabin','Source Sans Pro';
+        font-family: 'HK Grotesk','Source Sans Pro';
         text-transform: uppercase;
         
         background-color: #eceff2;
@@ -773,3 +770,10 @@ body{
         border-color: #e10600;
     }/*
 }*/
+
+
+.dummyContent {
+    height: 600px;
+    background: rgb(1,1,1);
+    background: linear-gradient(0deg, rgba(1,1,1,0.8365546047520571) 0%, rgba(184,96,46,1) 28%, rgba(122,128,50,1) 67%, rgba(222,233,90,0.8505602069929534) 98%);
+}
