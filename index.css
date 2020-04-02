@@ -965,8 +965,9 @@ body{
     margin-left: 10px;
 }
 .calendarWidgetElement .event{
+    padding-left: 5px;
     display: inline-block;
-    width: 77px;
+    width: 72px;
 }
 .calendarWidgetElement .time{
     display: inline-block;
