@@ -854,11 +854,11 @@ body{
 /*---- CalResWidget ----*/
 .calResWidget {
     width: 320px;
-    height: 400px;/*
+    height: 420px;/*
     background-color: blueviolet;*/
 }
 .widgetButtonContainer {
-    margin: 0 10px;
+    margin: 0 5px;
     margin-top: 10px;
     /*border-bottom: 2px solid #eceff2;*/
 }
@@ -899,6 +899,10 @@ body{
 .m-5 {
     margin: 5px;
 }
+.mtb-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .p-5 {
     padding: 5px;
 }
@@ -919,11 +923,13 @@ body{
 }
 .widgetButton {
     height: 33px;
-    width: 100px;
+    width: 104px;
+    padding: 0;
     border: 1px solid black;
     border-radius: 0px;
     font-family: 'HK Grotesk','Source Sans Pro';
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 13px;
     color: black;
@@ -945,11 +951,11 @@ body{
     border-bottom: 7px solid white;
     /*border-bottom: 1px solid white;*/
 }
-.widgetButton .selected {
+.widgetButtonContainer .selected {
     background-color: #2a2b2b;
     color: white;
 }
-.widgetButton .selected .arrow-up{
+.widgetButtonContainer .selected .arrow-up{
     border-bottom: 7px solid white;
 }
 .b-rs {
@@ -969,6 +975,25 @@ body{
 .calendarWidgetElement .tv{
     display: inline-block;
     width: 110px;
+}
+
+.calendarWidgetElement .position{
+    text-align: center;
+    display: inline-block;
+    width: 35px;
+}
+.calendarWidgetElement .pilot{
+    display: inline-block;
+    width: 150px;
+}
+.calendarWidgetElement .difference{
+    display: inline-block;
+    width: 130px;
+}
+
+.calendarWidgetElement .points{
+    display: inline-block;
+    width: 100px;
 }
 .arrow-up {
     position: absolute;
