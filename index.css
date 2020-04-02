@@ -725,7 +725,7 @@ body{
     }
     .resultsInfobox .name {
         width: 190px;
-        font-family: 'Cabin', 'Source Sans Pro';
+        font-family: 'HK Grotesk', 'Source Sans Pro';
         -webkit-font-smoothing: antialiased;
         font-weight: 600;
     }
@@ -734,7 +734,7 @@ body{
     }
     .resultsInfobox .position {
         width: 12px;
-        font-family: 'Cabin', 'Source Sans Pro';
+        font-family: 'HK Grotesk', 'Source Sans Pro';
         -webkit-font-smoothing: antialiased;
         font-weight: 600;
         flex-shrink: 0;
@@ -837,4 +837,64 @@ body{
 }
 .noOutline {
     outline: none;
+}
+
+/*---- CalResWidget ----*/
+.calResWidget {
+    width: 320px;
+    height: 400px;
+    background-color: blueviolet;
+}
+.widgetButtonContainer {
+    margin: 0 5px;
+    margin-top: 10px;
+}
+.widgetButtonContainer Button {
+    /*argin: 0 5px;*/
+}
+.calResWidgetContent {
+    width: 310px;
+    height: 100%;
+    margin: 5px 5px;
+    padding: 5px;padding: 5px;
+    background-color: yellow;
+}
+
+.flex-r {
+    display: flex;
+    flex-direction: row;
+}
+.flex-d {
+    display: flex;
+    flex-direction: column;
+}
+.flex-sb {
+    justify-content: space-between;
+}
+.widgetButton {
+    margin: auto;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 0px;
+    font-family: 'HK Grotesk','Source Sans Pro';
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    transition: ease-in-out 0.2s;
+}
+
+.widgetButton:hover {
+    background-color: #e10600;
+    border: 1px solid #e10600;
+    color: white;
+    cursor: pointer;
 }
