@@ -286,10 +286,10 @@ body{
         width: 140px;
         border: 1px solid black;
         border-radius: 0px;
-        font-family: 'Cabin','Source Sans Pro';
+        font-family: 'HK Grotesk','Source Sans Pro';
         text-transform: uppercase;
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 14px;
         color: black;
         background-color: white;
@@ -856,7 +856,7 @@ body{
     width: 310px;
     height: 100%;
     margin: 5px 5px;
-    padding: 5px;padding: 5px;
+    padding: 5px;
     background-color: yellow;
 }
 
