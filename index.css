@@ -264,8 +264,20 @@ body{
     .fw-normal {
         font-weight: 400;
     }
+    .fw-400 {
+        font-weight: 400;
+    }
     .fw-600 {
         font-weight: 600;
+    }
+    .fw-700 {
+        font-weight: 700;
+    }
+    .mt-5 {
+        margin-top: 5px;
+    }
+    .mb-5 {
+        margin-bottom: 5px;
     }
     .blackBotGradient {
         background: linear-gradient(0deg, 
@@ -842,38 +854,71 @@ body{
 /*---- CalResWidget ----*/
 .calResWidget {
     width: 320px;
-    height: 400px;
-    background-color: blueviolet;
+    height: 400px;/*
+    background-color: blueviolet;*/
 }
 .widgetButtonContainer {
-    margin: 0 5px;
+    margin: 0 10px;
     margin-top: 10px;
+    /*border-bottom: 2px solid #eceff2;*/
 }
 .widgetButtonContainer Button {
     /*argin: 0 5px;*/
+    border: none;
 }
 .calResWidgetContent {
     width: 310px;
     height: 100%;
-    margin: 5px 5px;
-    padding: 5px;
-    background-color: yellow;
+    margin: 0px 5px;
+    /*
+    background-color: yellow;*/
 }
-
+.timesData .venueName {
+    margin: 0;
+}
 .flex-r {
     display: flex;
     flex-direction: row;
 }
-.flex-d {
+.flex-c {
     display: flex;
     flex-direction: column;
 }
 .flex-sb {
     justify-content: space-between;
 }
+.flex-fs {
+    justify-content: flex-start;
+}
+.flex-ac {
+    align-items: center;
+}
+.m-0 {
+    margin: 0;
+}
+.m-5 {
+    margin: 5px;
+}
+.p-5 {
+    padding: 5px;
+}
+.ptd-5 {
+    padding: 5px 0;
+}
+.plr-5 {
+    padding: 0 5px;
+}
+.plr-10 {
+    padding: 0 10px;
+}
+.pl-5 {
+    padding-left: 4px;
+}
+.widgetSButtonContainer {
+    position: relative;
+}
 .widgetButton {
-    margin: auto;
-    height: 40px;
+    height: 33px;
     width: 100px;
     border: 1px solid black;
     border-radius: 0px;
@@ -882,19 +927,59 @@ body{
     font-weight: 600;
     font-size: 13px;
     color: black;
-    background-color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    background-color: #eceff2;
 
     transition: ease-in-out 0.2s;
 }
 
-.widgetButton:hover {
-    background-color: #e10600;
-    border: 1px solid #e10600;
+.widgetSButtonContainer:hover .widgetButton{
+    /*margin-bottom: 10px;*/
+    background-color: #2a2b2b;
+    /*border-bottom: 1px solid white;*/
     color: white;
     cursor: pointer;
+    font-weight: 700;
+}
+.widgetSButtonContainer:hover .arrow-up{
+    /*margin-bottom: 10px;*/
+    border-bottom: 7px solid white;
+    /*border-bottom: 1px solid white;*/
+}
+.widgetButton .selected {
+    background-color: #2a2b2b;
+    color: white;
+}
+.widgetButton .selected .arrow-up{
+    border-bottom: 7px solid white;
+}
+.b-rs {
+    border-bottom: 2px solid #d8dcde;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.calendarWidgetElement .event{
+    display: inline-block;
+    width: 77px;
+}
+.calendarWidgetElement .time{
+    display: inline-block;
+    width: 103px;
+}
+.calendarWidgetElement .tv{
+    display: inline-block;
+    width: 110px;
+}
+.arrow-up {
+    position: absolute;
+    margin: auto;
+    margin-top: -5px;
+    margin-left: 37px;
+    z-index: 5;
+    width: 0px; 
+    height: 0px; 
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 5px solid transparent;
+    transition: ease-in-out 0.2s;
 }
