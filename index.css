@@ -868,28 +868,6 @@ body{
     outline: none;
 }
 
-/*---- CalResWidget ----*/
-.calResWidget {
-    width: 320px;
-    height: 420px;/*
-    background-color: blueviolet;*/
-}
-.widgetButtonContainer {
-    margin: 0 5px;
-    margin-top: 10px;
-    /*border-bottom: 2px solid #eceff2;*/
-}
-.widgetButtonContainer Button {
-    /*argin: 0 5px;*/
-    border: none;
-}
-.calResWidgetContent {
-    width: 310px;
-    height: 100%;
-    margin: 0px 5px;
-    /*
-    background-color: yellow;*/
-}
 .timesData .venueName {
     margin: 0;
 }
@@ -915,6 +893,10 @@ body{
 }
 .m-5 {
     margin: 5px;
+}
+.mtb-3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 .mtb-15 {
     margin-top: 15px;
@@ -949,102 +931,10 @@ body{
 .tab-bb {
     border-top: 1px solid #eceff2;
 }
-.widgetSButtonContainer {
-    position: relative;
-}
-.widgetButton {
-    height: 33px;
-    width: 104px;
-    padding: 0;
-    border: 1px solid black;
-    border-radius: 0px;
-    font-family: 'HK Grotesk','Source Sans Pro';
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 13px;
-    color: black;
-    background-color: #eceff2;
 
-    transition: ease-in-out 0.2s;
-}
-
-.widgetSButtonContainer:hover .widgetButton{
-    /*margin-bottom: 10px;*/
-    background-color: #2a2b2b;
-    /*border-bottom: 1px solid white;*/
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
-}
-.widgetButton.selected{
-    /*margin-bottom: 10px;*/
-    background-color: #2a2b2b;
-    /*border-bottom: 1px solid white;*/
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
-}
-.widgetSButtonContainer:hover .arrow-up{
-    /*margin-bottom: 10px;*/
-    border-bottom: 7px solid white;
-    /*border-bottom: 1px solid white;*/
-}
-.widgetButtonContainer .selected {
-    background-color: #2a2b2b;
-    color: white;
-}
-.widgetButtonContainer .selected .arrow-up{
-    border-bottom: 7px solid white;
-}
 .b-rs {
     border-bottom: 2px solid #d8dcde;
 }
 .ml-10 {
     margin-left: 10px;
-}
-.calendarWidgetElement .event{
-    padding-left: 5px;
-    display: inline-block;
-    width: 72px;
-}
-.calendarWidgetElement .time{
-    display: inline-block;
-    width: 103px;
-}
-.calendarWidgetElement .tv{
-    display: inline-block;
-    width: 110px;
-}
-
-.calendarWidgetElement .position{
-    text-align: center;
-    display: inline-block;
-    width: 35px;
-}
-.calendarWidgetElement .pilot{
-    display: inline-block;
-    width: 150px;
-}
-.calendarWidgetElement .difference{
-    display: inline-block;
-    width: 130px;
-}
-
-.calendarWidgetElement .points{
-    display: inline-block;
-    width: 100px;
-}
-.arrow-up {
-    position: absolute;
-    margin: auto;
-    margin-top: -5px;
-    margin-left: 37px;
-    z-index: 5;
-    width: 0px; 
-    height: 0px; 
-    border-left: 13px solid transparent;
-    border-right: 13px solid transparent;
-    border-bottom: 5px solid transparent;
-    transition: ease-in-out 0.2s;
 }
