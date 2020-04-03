@@ -935,6 +935,9 @@ body{
 .pl-5 {
     padding-left: 4px;
 }
+.tab-bb {
+    border-top: 1px solid #eceff2;
+}
 .widgetSButtonContainer {
     position: relative;
 }
