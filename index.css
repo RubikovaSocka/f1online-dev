@@ -734,6 +734,9 @@ body{
     .resultsInfobox {
         width: 320px;
     }
+    .mb-10 {
+        margin-bottom: 10px;
+    }
 
 
     .resultsDataItem {
